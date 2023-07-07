@@ -1,0 +1,39 @@
+
+
+
+body {
+    background-color: chartreuse;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: violet;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.nav {
+    background-color: #fff6e6;
+    display: inline-block;
+    width: 350px;
+    border: #000 solid;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.nav:hover{
+    background-color: #ffac00;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}

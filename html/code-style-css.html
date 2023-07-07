@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/faq.css">
+    <title>CSS</title>
+</head>
+<body>
+    <header>
+        <img class="img-methed" src="/img/methed-css.jpg" alt="">
+    </header>
+    <main>
+        <div class="container">
+            <h1>Code Style CSS</h1>
+            <section>
+                <nav>
+                    <ul>
+                        <li class="li-nav"><a class="nav" href="code-style-html.html">Code Style HTML</a></li>
+                        <li class="li-nav"><a class="nav" href="code-style-css.html">Code Style CSS</a></li>
+                        <li class="li-nav"><a class="nav" href="#">Code Style JS для верстальщика</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <p>Хороший код — это код который удобно читать и поддерживать.</p>
+
+            <section>
+                <h2>Хороший код должен быть простым:</h2>
+                <ul>
+                    <li>— используйте легко читаемые селекторы и говорящие классы. По ним сразу можно понять к чему применяются стили.</li>
+                    <li>— классы пишите в нижнем регистре (строчными буквами).</li>
+                    <li>— вместо пробела в классах используйте знак «дефис». Старайтесь не использовать нижнее подчеркивание и camelCase.</li>
+                    <li>— код должен быть в одном стиле: везде используется один порядок свойств, одинаковые отступы и пробелы, один стиль записи цветов и псевдоэлементов.</li>
+                </ul>
+                <div class="css-code-container">
+                    <figure>
+                        <figcaption class="css-code-text">плохо</figcaption>
+                        <img class="css-code-img" src="/img/css-bad.png" alt="">
+                    </figure>
+
+                    <figure>
+                        <figcaption class="css-code-text">хорошо</figcaption>
+                        <img class="css-code-img" src="/img/css-good.png" alt="">
+                    </figure>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Оформляем блок со свойствами:</h2>
+                <ul>
+                    <li>— после селектора, перед открывающей блок «фигурной скобкой» ставьте «пробел».</li>
+                    <li>— в начале строки перед свойствами ставится «два пробела». Это самый популярный вариант.</li>
+                    <li>— в начале строки перед свойствами ставится «два пробела». Это самый популярный вариант.</li>
+                    <li>— обязательно ставить «точку с запятой» в конце свойства.</li>
+                    <li>— ставьте закрывающую «фигурную скобку» на новой строке.</li>
+                </ul>
+                <figure>
+                    <figcaption>Между набором правил оставляйте одну пустую строку:</figcaption>
+                    <img class="feature-img" src="/img/feature.png" alt="">
+                </figure>
+                <ul>
+                    <li class="rule-list">Все стили пишем через селектор класса. Теги используем только для глобальных стилей, id в стилях не используем.</li>
+                    <li class="rule-list">Избегайте использование !important.</li>
+                    <li class="rule-list">Псевдокласс nth-child используем только со значениями even и odd. В остальных случая используем дополнительный класс.</li>
+                    <li class="rule-list">Сохраняйте уровень вложенности не более двух элементов, если не используем БЭМ.</li>
+                    <li class="rule-list">Плохо: .block .faq .title</li>
+                    <li class="rule-list">Хорошо: .faq .title</li>
+                    <li class="rule-list">При использовании БЭМ вложенность не используется.</li>
+                    <li class="rule-list">Обязательно указывайте альтернативный вид и тип семейства шрифтов.</li>
+                    <li class="rule-list">У интерактивных элементов обязательны стили состояний: hover, focus, active, disabled.</li>
+                    <li class="rule-list">Если используете свойство display: inline-block, обязательно добавляйте свойство vertical-align.</li>
+                    <li class="rule-list">Свойство **position** используем в крайнем случае. Исключение: если иначе сделать невозможно или сложно.</li>
+                    <li class="rule-list">У нулевых значений не нужно писать единицы измерения. Когда значение **0**, то не важно это px, % или попугайчики.</li>
+                    <li class="rule-list">Значения цвета hex пишем в нижнем регистре.</li>
+                    <li class="rule-list">Проверяйте css в валидаторе — <a class="w3c" href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator/</a></li>
+
+                </ul>
+            </section>
+
+            <section>
+                <h2>Дополнительно</h2>
+                <p>В названиях файлов и папок используйте только латиницу и буквы в нижнем регистре, без пробелов. Для разделения слов используйте «дефис» или нижние подчёркивание.</p>
+            </section>
+            
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background: #191919;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.li-nav::marker{
+    content: url("/img/right-arrow.png") ;
+    position: relative;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.clipping {
+    border-left: solid #fff;
+    padding-left: 10px;
+}
+
+.figcaption-html{
+    margin-bottom: 25px;
+    position: relative;
+    left: -40px;
+}
+
+.utf-8 {
+    width: 544px;
+    height: 400px;
+}
+
+.syntax {
+    width: 708px;
+    height: 444px;
+}
+
+.link {
+    width: 657px;
+    height: 255px;
+}
+
+.img-methed{
+    object-fit: cover;
+    height: 30vh;
+    width: 100%;
+}
+
+.w3c {
+    text-decoration: underline;
+    color: #797979;
+}
+
+.css-code-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.css-code-img {
+    width: 331px;
+    height: 203px;
+}
+
+.feature-img {
+    width: 428px;
+    height: 495px;
+}
+
+.rule-list {
+    margin-bottom: 10px;
+}
